@@ -1,0 +1,85 @@
+.header.sticky {
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-between; // Align items to the left and right edges
+    align-items: center; // Vertically center items
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 15vh;
+    .nav-desktop {
+        margin: 0 auto;
+        width: $grid-width;
+        margin-right: calc((100% - #{$grid-width}) / 2);
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .nav-link {
+                text-decoration: none;
+                .text-box {
+                    text-transform: uppercase;
+                    color: $color-black;
+                    padding: 0.5rem 1rem;
+                    border-radius: 0.2rem;
+                    transition: all 0.3s;
+                    font-size: 1.8rem;
+                    text-align: center;
+                    font-weight: 400;
+                    &:hover {
+                        color: $color-secondary;
+                    }
+                }
+
+                .logo-box {
+                    .logo {
+                        height: 15vh;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header {
+    background-color: $color-primary;
+    display: flex;
+    justify-content: space-between; // Align items to the left and right edges
+    align-items: center; // Vertically center items
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 15vh;
+    .nav-desktop {
+        margin: 0 auto;
+        width: $grid-width;
+        margin-right: calc((100% - #{$grid-width}) / 2);
+        .nav-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .nav-link {
+                text-decoration: none;
+                .text-box {
+                    text-transform: uppercase;
+                    color: $color-white;
+                    padding: 0.5rem 1rem;
+                    border-radius: 0.2rem;
+                    transition: all 0.3s;
+                    font-size: 1.8rem;
+                    text-align: center;
+                    font-weight: 600;
+                    &:hover {
+                        background-color: $color-secondary;
+                    }
+                    span {
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

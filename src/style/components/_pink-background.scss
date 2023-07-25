@@ -1,0 +1,12 @@
+.pink-background {
+    background-image: linear-gradient(
+        to bottom,
+        $color-primary,
+        $color-primary
+    );
+    position: absolute;
+    z-index: -1;
+    height: 75vh;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 60vh, 0 100%);
+}

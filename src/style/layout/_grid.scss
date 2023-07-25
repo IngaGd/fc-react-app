@@ -1,0 +1,33 @@
+.row {
+    max-width: $grid-width;
+    margin: 0 auto;
+
+    &.small {
+        max-width: $grid-small;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+    }
+
+    @include clearfix;
+
+    //elements with atributes class which has start col-
+    [class^='col-'] {
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: $gutter-horizontal;
+        }
+    }
+    @for $i from 1 through 12 {
+        .col-#{$i}-of-12 {
+            width: calc(
+                #{$i} *
+                    ((100% - 11 * #{$gutter-horizontal}) / 12) +
+                    (#{$i} - 1) *
+                    #{$gutter-horizontal}
+            );
+        }
+    }
+}
