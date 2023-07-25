@@ -31,10 +31,16 @@ export default function Header() {
                     <Link className="nav-link" to="/about-us">
                         <div className="text-box"> About us</div>
                     </Link>
+                    <Link
+                        className="nav-link"
+                        to="https://fingers-crossed-nail-studio.mytreatwell.lt/?fbclid=PAAaZ1c67PnrUYjey9ZzL7tUeaZ0k4f3P8zsvxOLFeZBP1QSRvGSs4y-K_rW8"
+                    >
+                        <div className="text-box">Prices</div>
+                    </Link>
                     <Link className="nav-link" to="/contact">
                         <div className="text-box"> Contacts</div>
                     </Link>
-                    <Link className="nav-link" to="/home">
+                    <Link className="nav-link" to="/fc-react-app">
                         {isSticky ? (
                             <div className={`header sticky`}>
                                 <div className="logo-box">
@@ -48,7 +54,7 @@ export default function Header() {
                         ) : (
                             <div className={`header`}>
                                 <div className="text-box">
-                                    <span>Home</span>
+                                    <span className="nav-home">Home</span>
                                 </div>
                             </div>
                         )}
@@ -58,6 +64,14 @@ export default function Header() {
                     </Link>
                     <Link className="nav-link" to="/cart">
                         <div className="text-box">Cart</div>
+                    </Link>
+                    <Link
+                        className="nav-link"
+                        to="https://fingers-crossed-nail-studio.mytreatwell.lt/?fbclid=PAAaZ1c67PnrUYjey9ZzL7tUeaZ0k4f3P8zsvxOLFeZBP1QSRvGSs4y-K_rW8"
+                    >
+                        <div className="text-box nav-booking">
+                            <span>Booking</span>
+                        </div>
                     </Link>
                 </div>
             </nav>

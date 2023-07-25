@@ -13,7 +13,7 @@ function App() {
         <Router>
             <Header />
             <Routes>
-                <Route path="/home" element={<Home />} />
+                <Route path="/fc-react-app" element={<Home />} />
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/shop" element={<Shop />} />
                 <Route path="/contacts" element={<Contacts />} />
