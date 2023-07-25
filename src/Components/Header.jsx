@@ -34,7 +34,7 @@ export default function Header() {
                     <Link className="nav-link" to="/contact">
                         <div className="text-box"> Contacts</div>
                     </Link>
-                    <Link className="nav-link" to="/fingers-crossed">
+                    <Link className="nav-link" to="/home">
                         {isSticky ? (
                             <div className={`header sticky`}>
                                 <div className="logo-box">
