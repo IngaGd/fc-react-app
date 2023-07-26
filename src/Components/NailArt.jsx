@@ -26,7 +26,7 @@ export default function NailArt() {
                             isVisible ? 'animated' : ''
                         }`}
                     >
-                        <h3 className="heading-tertiary">GET YOUR SHINE ON</h3>
+                        <h3 className="heading-quarterly">GET YOUR SHINE ON</h3>
                         <h2 className="heading-secondary">Skilled Nail Art</h2>
                         <p className="paragraph">
                             Nullam tempor sapien gravida donec and pretium ipsum

@@ -1,0 +1,57 @@
+.service {
+    // transition: all 0.3s;
+    padding-bottom: 15rem;
+    &__card {
+        &.animated {
+            animation-name: moveInBottom;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        &__img {
+            width: 35rem;
+            transform: scale(1);
+            transition: all 0.5s;
+            padding-bottom: 2rem;
+        }
+        &__link {
+            position: relative;
+            text-decoration: none;
+            color: $color-black-light;
+
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: -1px;
+                left: 50%; /* Start from the middle */
+                transform: translateX(-50%); /* Center the underline */
+                width: 0; /* Initially, the underline should be invisible */
+                height: 2px; /* Height of the underline */
+                background: $color-black-light;
+                transition: width 0.5s ease;
+            }
+            &:hover::before {
+                width: 50%; /* On hover, extend the underline to full width */
+            }
+        }
+        &:hover &__img {
+            transform: scale(1.05);
+        }
+    }
+    // &__card-1 {
+    //     animation-name: moveInBottom;
+    //     animation-duration: 1s;
+    //     animation-timing-function: ease-out;
+    // }
+    // &__card-2 {
+    //     animation-name: moveInBottom;
+    //     animation-delay: 1s;
+    //     animation-duration: 1s;
+    //     animation-timing-function: ease-out;
+    // }
+    // &__card-3 {
+    //     animation-name: moveInBottom;
+    //     animation-delay: 2s;
+    //     animation-duration: 1s;
+    //     animation-timing-function: ease-out;
+    // }
+}
