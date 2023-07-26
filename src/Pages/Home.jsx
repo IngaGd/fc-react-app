@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import Hero from '../Components/Hero';
+import NailArt from '../Components/NailArt';
 import NailPolish from '../Components/NailPolish';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     return (
         <>
             <NailPolish scrollToHero={scrollToHero} />
+            <NailArt />
             <Hero refProp={heroRef} />
         </>
     );

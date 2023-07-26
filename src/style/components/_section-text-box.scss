@@ -1,0 +1,17 @@
+.section-text-box {
+    padding-left: 5rem;
+    padding-top: 8rem;
+    text-align: justify;
+    .heading-tertiary {
+        margin-bottom: 1rem;
+    }
+    .heading-secondary {
+        margin-bottom: 2rem;
+    }
+    .paragraph {
+        margin-bottom: 1rem;
+        li {
+            margin-bottom: 1rem;
+        }
+    }
+}
