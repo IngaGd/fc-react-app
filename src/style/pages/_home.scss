@@ -1,6 +1,7 @@
 .section-nail-polish {
     position: relative;
     color: $color-white;
+    padding-bottom: 20rem;
     .text-box {
         animation-name: moveInRight;
         animation-duration: 2s;
@@ -20,6 +21,7 @@
 }
 
 .section-nail-art {
+    padding-top: 10rem;
     .section-text-box {
         &.animated {
             animation-name: moveInLeft;

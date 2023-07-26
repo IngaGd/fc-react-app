@@ -7,7 +7,7 @@ export default function NailArt() {
     const [containerRef, isVisible] = useElementOnScreen({
         root: null,
         rootMargin: '0px',
-        threshhold: 0.1,
+        threshhold: 0.8,
     });
     return (
         <section
