@@ -15,9 +15,14 @@ export default function Hero({ refProp }) {
                     <h2 className="heading-secondary white u-margin-bottom-big">
                         We make people genuinely happy
                     </h2>
-                    <button className="btn btn--transperent">
+                    <a
+                        className="btn btn--transperent"
+                        href="https://fingers-crossed-nail-studio.mytreatwell.lt/?fbclid=PAAaZ1c67PnrUYjey9ZzL7tUeaZ0k4f3P8zsvxOLFeZBP1QSRvGSs4y-K_rW8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Online booking
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

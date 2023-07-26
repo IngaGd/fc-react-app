@@ -22,13 +22,6 @@
 
 .section-nail-art {
     padding-top: 10rem;
-    .section-text-box {
-        &.animated {
-            animation-name: moveInLeft;
-            animation-duration: 2s;
-            animation-timing-function: ease-out;
-        }
-    }
     .image-box {
         &.animated {
             animation-name: moveInRight;
