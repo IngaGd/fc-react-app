@@ -13,8 +13,8 @@ export default function Home() {
     return (
         <>
             <NailPolish scrollToHero={scrollToHero} />
-            <NailArt />
             <Hero refProp={heroRef} />
+            <NailArt />
         </>
     );
 }

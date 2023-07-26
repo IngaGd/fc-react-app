@@ -20,13 +20,13 @@
                 text-decoration: none;
                 .text-box {
                     text-transform: uppercase;
-                    color: $color-black;
+                    color: $color-black-light;
                     padding: 0.5rem 1.5rem;
                     border-radius: 0.2rem;
                     transition: all 0.3s;
                     font-size: 1.6rem;
                     text-align: center;
-                    font-weight: 400;
+                    font-weight: 500;
                     &:hover {
                         background-color: $color-secondary;
                         color: $color-white;

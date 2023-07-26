@@ -21,13 +21,17 @@
 
 .section-nail-art {
     .section-text-box {
-        animation-name: moveInLeft;
-        animation-duration: 2s;
-        animation-timing-function: ease-out;
+        &.animated {
+            animation-name: moveInLeft;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
     }
     .image-box {
-        animation-name: moveInRight;
-        animation-duration: 2s;
-        animation-timing-function: ease-out;
+        &.animated {
+            animation-name: moveInRight;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
     }
 }
