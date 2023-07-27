@@ -4,8 +4,18 @@
     &__card {
         &.animated {
             animation-name: moveInBottom;
-            animation-duration: 2s;
+            animation-duration: 1.5s;
             animation-timing-function: ease-out;
+            animation-fill-mode: backwards;
+            &.card-1 {
+                animation-delay: 0.5s;
+            }
+            &.card-2 {
+                animation-delay: 1s;
+            }
+            &.card-3 {
+                animation-delay: 1.5s;
+            }
         }
         &__img {
             width: 35rem;

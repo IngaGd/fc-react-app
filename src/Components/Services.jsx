@@ -23,7 +23,7 @@ export default function Services() {
                         <div
                             className={`service__card ${
                                 isVisible ? 'animated' : ''
-                            }`}
+                            }  + card-1`}
                         >
                             <img
                                 src={image1}
@@ -48,7 +48,7 @@ export default function Services() {
                         <div
                             className={`service__card ${
                                 isVisible ? 'animated' : ''
-                            }`}
+                            } + card-2`}
                         >
                             <img
                                 src={image2}
@@ -73,7 +73,7 @@ export default function Services() {
                         <div
                             className={`service__card ${
                                 isVisible ? 'animated' : ''
-                            }`}
+                            }  + card-3`}
                         >
                             <img
                                 src={image3}
