@@ -22,12 +22,8 @@ export default function Header() {
 
     return (
         <header className={`header ${isSticky ? 'sticky' : ''}`}>
-            <nav className={`header ${isSticky ? 'sticky' : ''} + nav-desktop`}>
-                <div
-                    className={`header ${
-                        isSticky ? 'sticky' : ''
-                    } + nav-desktop + nav-links`}
-                >
+            <nav className={`nav-desktop`}>
+                <div className={`nav-links`}>
                     <Link className="nav-link" to="/about-us">
                         <div className="text-box"> About us</div>
                     </Link>
@@ -44,16 +40,12 @@ export default function Header() {
                     </Link>
                     <Link className="nav-link" to="/fc-react-app">
                         {isSticky ? (
-                            <div className={`header sticky`}>
-                                <div className="logo-box">
-                                    <img
-                                        className="logo"
-                                        src={logo}
-                                        alt="Logo"
-                                    />
-                                </div>
+                            // <div className={`header sticky`}>
+                            <div className="logo-box">
+                                <img className="logo" src={logo} alt="Logo" />
                             </div>
                         ) : (
+                            // </div>
                             <div className={`header`}>
                                 <div className="text-box">
                                     <span className="nav-home">Home</span>
