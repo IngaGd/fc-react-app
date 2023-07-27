@@ -20,13 +20,21 @@
     }
 }
 
-.section-nail-art {
+.section-nail-art,
+.section-prosecco-fridays {
     padding-top: 10rem;
+    padding-bottom: 15rem;
     .image-box {
         &.animated {
             animation-name: moveInRight;
             animation-duration: 2s;
             animation-timing-function: ease-out;
+        }
+        .img {
+            height: 60rem;
+            width: 60rem;
+            border-radius: 2px;
+            object-fit: cover;
         }
     }
 }

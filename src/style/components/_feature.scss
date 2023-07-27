@@ -4,13 +4,13 @@
         animation: apperance 1s ease-in;
         animation-fill-mode: backwards;
         &.feature-1 {
-            animation-delay: 1s;
+            animation-delay: 0.5s;
         }
         &.feature-2 {
-            animation-delay: 1.5s;
+            animation-delay: 1s;
         }
         &.feature-3 {
-            animation-delay: 2s;
+            animation-delay: 1.5s;
         }
     }
     .icon {
