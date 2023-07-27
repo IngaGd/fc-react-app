@@ -1,5 +1,18 @@
 .feature {
     text-align: center;
+    &.animated {
+        animation: apperance 1s ease-in;
+        animation-fill-mode: backwards;
+        &.feature-1 {
+            animation-delay: 1s;
+        }
+        &.feature-2 {
+            animation-delay: 1.5s;
+        }
+        &.feature-3 {
+            animation-delay: 2s;
+        }
+    }
     .icon {
         color: $color-primary;
         font-size: 5rem;
