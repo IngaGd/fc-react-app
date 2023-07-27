@@ -31,7 +31,7 @@ export default function Services() {
                                 class="service__card__img"
                             />
                             <a
-                                class="service__card__link"
+                                class="service__card link-undelined"
                                 href="https://fingers-crossed-nail-studio.mytreatwell.lt/services.html"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -56,7 +56,7 @@ export default function Services() {
                                 class="service__card__img"
                             />
                             <a
-                                class="service__card__link"
+                                class="service__card link-undelined"
                                 href="https://fingers-crossed-nail-studio.mytreatwell.lt/services.html"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -81,7 +81,7 @@ export default function Services() {
                                 class="service__card__img"
                             />
                             <a
-                                class="service__card__link"
+                                class="service__card link-undelined"
                                 href="https://fingers-crossed-nail-studio.mytreatwell.lt/services.html"
                                 target="_blank"
                                 rel="noopener noreferrer"

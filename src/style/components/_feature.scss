@@ -1,0 +1,19 @@
+.feature {
+    text-align: center;
+    .icon {
+        color: $color-primary;
+        font-size: 5rem;
+        margin-bottom: 2.5rem;
+    }
+    .heading-tertiary,
+    .paragraph {
+        margin-bottom: 1.5rem;
+    }
+    .link-undelined {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04cm;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+}

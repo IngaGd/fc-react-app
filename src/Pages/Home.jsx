@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import Features from '../Components/Features';
 import Hero from '../Components/Hero';
 import NailArt from '../Components/NailArt';
 import NailPolish from '../Components/NailPolish';
@@ -17,6 +18,7 @@ export default function Home() {
             <Hero refProp={heroRef} />
             <NailArt />
             <Services />
+            <Features />
         </>
     );
 }
