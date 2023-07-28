@@ -1,4 +1,4 @@
-.header.sticky {
+.header-sticky {
     background-color: $color-white;
     display: flex;
     justify-content: space-between; // Align items to the left and right edges
@@ -42,27 +42,26 @@
                         color: $color-primary;
                     }
                 }
-                .logo-box {
-                    .logo {
-                        height: 15vh;
-                        width: auto;
-                    }
-                }
             }
         }
     }
 }
 
-.header {
-    background-color: $color-primary;
+.header-hero {
+    background-color: transparent;
     display: flex;
     justify-content: space-between; // Align items to the left and right edges
     align-items: center; // Vertically center items
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
-    z-index: 999;
+    top: -10;
+    // z-index: 999;
+    transform: translateY(-150%);
     height: 15vh;
+    // position: relative;
+    // z-index: 3;
+    // transform: translateY(-50%);
+    // padding-bottom: 20rem;
     .nav-desktop {
         margin: 0 auto;
         width: $grid-width;
@@ -93,7 +92,7 @@
                 .text-box.nav-booking {
                     background-color: $color-secondary;
                     &:hover {
-                        background-color: $color-primary;
+                        background-color: transparent;
                         border: 1px solid $color-white;
                     }
                 }

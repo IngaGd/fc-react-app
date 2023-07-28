@@ -1,6 +1,6 @@
 .section-hero {
     position: relative;
-    min-height: 100vh; /* adjust as needed */
+    min-height: 100vh;
     padding-bottom: 50rem;
 }
 
@@ -11,7 +11,7 @@
     width: 100%;
     height: 80%;
     overflow: hidden;
-    z-index: -1; /* Place video behind your content */
+    z-index: -1;
     &::before {
         content: '';
         position: absolute;
@@ -19,21 +19,20 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
-        z-index: 2; /* Place the dark overlay in front of the video */
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 2;
     }
 
     &__content {
         width: 100%;
         height: 100%;
-        object-fit: cover; /* Cover the entire area of the .bg-video */
-        // opacity: 0.8;
-        z-index: 1; /* Place the video behind the dark overlay */
+        object-fit: cover;
+        z-index: 1;
     }
 }
 
 .hero-content {
-    position: relative; /* This could be absolute or relative depending on your design */
-    z-index: 3; /* Explicitly specify the stack order to place content in front of video */
+    position: relative;
+    z-index: 3;
     transform: translatey(50%);
 }

@@ -1,27 +1,11 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import logo from '../assets/images/logo/Fingers_crossed_logopos_small.png';
 
-export default function Header() {
-    const [isSticky, setIsSticky] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            setIsSticky(window.scrollY > 0);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
+export default function HeaderSticky() {
     return (
-        <header className={`header ${isSticky ? 'sticky' : ''}`}>
+        <header className={`header-sticky`}>
             <nav className={`nav-desktop`}>
                 <div className={`nav-links`}>
                     <Link className="nav-link" to="/about-us">
@@ -39,19 +23,9 @@ export default function Header() {
                         <div className="text-box"> Contacts</div>
                     </Link>
                     <Link className="nav-link" to="/fc-react-app">
-                        {isSticky ? (
-                            // <div className={`header sticky`}>
-                            <div className="logo-box">
-                                <img className="logo" src={logo} alt="Logo" />
-                            </div>
-                        ) : (
-                            // </div>
-                            <div className={`header`}>
-                                <div className="text-box">
-                                    <span className="nav-home">Home</span>
-                                </div>
-                            </div>
-                        )}
+                        <div className="logo-box">
+                            <img className="logo" src={logo} alt="Logo" />
+                        </div>
                     </Link>
                     <Link className="nav-link" to="/shop">
                         <div className="text-box">Products</div>

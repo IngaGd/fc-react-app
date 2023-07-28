@@ -1,5 +1,7 @@
+import { useEffect } from 'react';
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Components/Header';
+import HeaderSticky from './Components/HeaderSticky';
 import AboutUs from './Pages/AboutUs';
 import Cart from './Pages/Cart';
 import Contacts from './Pages/Contacts';
@@ -9,9 +11,22 @@ import Shop from './Pages/Shop';
 import './style/main.scss';
 
 function App() {
+    const [isSticky, setIsSticky] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsSticky(window.scrollY > 0);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     return (
         <Router>
-            <Header />
+            {isSticky ? <HeaderSticky /> : ''}
             <Routes>
                 <Route path="/fc-react-app" element={<Home />} />
                 <Route path="/about-us" element={<AboutUs />} />

@@ -15,7 +15,7 @@ export default function Home() {
 
     return (
         <>
-            <NailPolish scrollToHero={scrollToHero} />
+            {/* <NailPolish scrollToHero={scrollToHero} /> */}
             <Hero refProp={heroRef} />
             <NailArt />
             <Services />
