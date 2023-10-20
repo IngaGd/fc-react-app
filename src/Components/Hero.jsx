@@ -29,7 +29,8 @@ export default function Hero({ refProp }) {
             <div className="hero-content">
                 <div className="u-center-text">
                     <h2 className="heading-secondary white u-margin-bottom-big">
-                        We make people genuinely happy
+                        Leisk mums prikišti nagus ne tik prie Tavo įvaizdžio,
+                        bet ir prie laisvalaikio
                     </h2>
                     <a
                         className="btn btn--transperent"

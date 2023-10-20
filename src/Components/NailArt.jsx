@@ -26,26 +26,22 @@ export default function NailArt() {
                             isVisible ? 'animated' : ''
                         }`}
                     >
-                        <h3 className="heading-quarterly">GET YOUR SHINE ON</h3>
-                        <h2 className="heading-secondary">Skilled Nail Art</h2>
+                        {/* <h3 className="heading-quarterly">GET YOUR SHINE ON</h3> */}
+                        <h2 className="heading-secondary">Nail Art</h2>
                         <p className="paragraph">
-                            Nullam tempor sapien gravida donec and pretium ipsum
-                            porta integer justo an odio velna vitae auctor
-                            integer congue magna undo purus a pretium ligula
-                            rutrum magna egestas
+                            Mūsų meistrės – tikros dailininkės, gebančios ant
+                            nagų perkelti daugumą tavo sumanymų:
                         </p>
                         <ul className="paragraph list">
-                            <li>
-                                Aliquam vitae molestie at quisque sapien
-                                volutpat and justo, aliquet molestie purus
-                                efficitur ipsum
-                            </li>
-                            <li>
-                                Sagittis congue augue magna risus mauris
-                                volutpat and egestas magna suscipit egestas a
-                                vitae purus
-                            </li>
+                            <li>Tony Soprano su chalatu – check;</li>
+                            <li>šuns portretas – check;</li>
+                            <li>gamtos peizažas – check.</li>
                         </ul>
+                        <p className="paragraph">
+                            Galime įgyvendinti praktiškai viską, ką sugalvosi! O
+                            įkvėpimo nagų dailei tikrai rasi mūsų nuotraukų
+                            galerijoje.
+                        </p>
                     </div>
                 </div>
             </div>
