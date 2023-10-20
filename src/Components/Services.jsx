@@ -88,16 +88,17 @@ export default function Services() {
                                 rel="noopener noreferrer"
                             >
                                 <h3 className="heading-tertiary u-center-text">
-                                    EVERY DAY IS WINE DAY
+                                    DOGS FRIENDLY
                                 </h3>
                             </a>
                             <p className="service_description">
-                                Nuolat kažkur skubame, todėl atrasti laiko
-                                išbūti irmanikiūreirpedikiūre daugumai yra
-                                misija neįmanoma. Šią misiją įgyvendinti padės
-                                mūsų siūloma manikiūro ir pedikiūro atliekamo
-                                vienu metu paslauga. Be papildomų mokesčių ir
-                                Tomo Kruzo įsikišimo.
+                                Fingers Crossed salonas myli tavo augintinį ne
+                                mažiau nei tu. Atsivesk savo šunį kartu į
+                                procedūrą, o mes pasirūpinsime, kad abu
+                                išeitumėte palepinti, laimingi ir
+                                tarsivizgindamisavo uodegas.Šuo gaus ir vandens,
+                                ir dėmesio, ir, šeimininkui leidus, geriausią
+                                šunišką masažą – pakasymą už ausų.
                             </p>
                         </div>
                     </div>
@@ -121,16 +122,16 @@ export default function Services() {
                                 rel="noopener noreferrer"
                             >
                                 <h3 className="heading-tertiary u-center-text">
-                                    Dar kažkas...🙂
+                                    EVERY DAY IS WINE DAY
                                 </h3>
                             </a>
                             <p className="service_description">
-                                Lorem, ipsum dolor sit amet consectetur
-                                adipisicing elit. Doloribus beatae officia
-                                corporis provident nulla sequi hic. Consectetur
-                                quas maxime saepe accusantium molestias,
-                                asperiores, consequuntur at ad ratione delectus
-                                aliquam ab!
+                                Nuolat kažkur skubame, todėl atrasti laiko
+                                išbūti irmanikiūreirpedikiūre daugumai yra
+                                misija neįmanoma. Šią misiją įgyvendinti padės
+                                mūsų siūloma manikiūro ir pedikiūro atliekamo
+                                vienu metu paslauga. Be papildomų mokesčių ir
+                                Tomo Kruzo įsikišimo.
                             </p>
                         </div>
                     </div>
