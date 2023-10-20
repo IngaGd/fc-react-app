@@ -21,8 +21,8 @@ export default function ProseccoFridays() {
                             isVisible ? 'animated' : ''
                         }`}
                     >
-                        <h3 className="heading-quarterly">GET YOUR SHINE ON</h3>
-                        <h2 className="heading-secondary">Prosecco fridays</h2>
+                        {/* <h3 className="heading-quarterly">GET YOUR SHINE ON</h3> */}
+                        <h2 className="heading-secondary">Men's manicure</h2>
                         <p className="paragraph">
                             Nullam tempor sapien gravida donec and pretium ipsum
                             porta integer justo an odio velna vitae auctor

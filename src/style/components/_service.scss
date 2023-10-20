@@ -26,4 +26,25 @@
             transform: scale(1.05);
         }
     }
+    &_description {
+        padding-top: 1.6rem;
+        font-size: 2rem;
+        text-align: justify;
+    }
+}
+
+.emoji-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .plus-sign,
+    .equality-sign {
+        font-size: 8rem;
+        margin-right: 1rem;
+        color: $color-black;
+    }
+    .emoji {
+        width: 6rem;
+        margin-right: 1rem;
+    }
 }

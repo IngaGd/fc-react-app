@@ -4,6 +4,12 @@ import useElementOnScreen from '../CustomHooks/useElementOnScreen';
 import image1 from '../assets/images/home/img1.jpg';
 import image2 from '../assets/images/home/img2.jpg';
 import image3 from '../assets/images/home/img3.jpg';
+import emoji1 from '../assets/images/emoji/1.png';
+import emoji2 from '../assets/images/emoji/2.png';
+import emoji3 from '../assets/images/emoji/3.png';
+import emoji4 from '../assets/images/emoji/4.png';
+import emoji5 from '../assets/images/emoji/5.png';
+import emoji6 from '../assets/images/emoji/6.png';
 
 export default function Services() {
     const [containerRef, isVisible] = useElementOnScreen({
@@ -14,8 +20,20 @@ export default function Services() {
     return (
         <section className="section-services" ref={containerRef}>
             <div className="row u-center-text">
-                <h3 className="heading-quarterly">CHOOSE THE BEAUTY</h3>
-                <h2 className="heading-secondary">Peace, Love & Nails.</h2>
+                {/* <h3 className="heading-quarterly">CHOOSE THE BEAUTY</h3> */}
+                {/* <h2 className="heading-secondary">Peace, Love & Nails.</h2> */}
+                <div className="emoji-box">
+                    <img src={emoji1} alt="nail emoji" className="emoji" />
+                    <span className="plus-sign">+</span>
+                    <img src={emoji2} alt="dog emoji" className="emoji" />
+                    <span className="plus-sign">+</span>
+                    <img src={emoji3} alt="wine emoji" className="emoji" />
+                    <span className="plus-sign">+</span>
+                    <img src={emoji4} alt="notes emoji" className="emoji" />
+                    <span className="equality-sign">=</span>
+                    <img src={emoji5} alt="nail emoji" className="emoji" />
+                    <img src={emoji6} alt="nail emoji" className="emoji" />
+                </div>
             </div>
             <div className="row">
                 <div className="col-4-of-12">
@@ -37,9 +55,17 @@ export default function Services() {
                                 rel="noopener noreferrer"
                             >
                                 <h3 className="heading-tertiary u-center-text">
-                                    Mani's & Pedi's
+                                    4 HANDS
                                 </h3>
                             </a>
+                            <p className="service_description">
+                                Nuolat kažkur skubame, todėl atrasti laiko
+                                išbūti irmanikiūreirpedikiūre daugumai yra
+                                misija neįmanoma. Šią misiją įgyvendinti padės
+                                mūsų siūloma manikiūro ir pedikiūro atliekamo
+                                vienu metu paslauga. Be papildomų mokesčių ir
+                                Tomo Kruzo įsikišimo.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -62,9 +88,17 @@ export default function Services() {
                                 rel="noopener noreferrer"
                             >
                                 <h3 className="heading-tertiary u-center-text">
-                                    Acrylic & Gel's
+                                    EVERY DAY IS WINE DAY
                                 </h3>
                             </a>
+                            <p className="service_description">
+                                Nuolat kažkur skubame, todėl atrasti laiko
+                                išbūti irmanikiūreirpedikiūre daugumai yra
+                                misija neįmanoma. Šią misiją įgyvendinti padės
+                                mūsų siūloma manikiūro ir pedikiūro atliekamo
+                                vienu metu paslauga. Be papildomų mokesčių ir
+                                Tomo Kruzo įsikišimo.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -87,9 +121,17 @@ export default function Services() {
                                 rel="noopener noreferrer"
                             >
                                 <h3 className="heading-tertiary u-center-text">
-                                    Add-on & Massages
+                                    Dar kažkas...🙂
                                 </h3>
                             </a>
+                            <p className="service_description">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Doloribus beatae officia
+                                corporis provident nulla sequi hic. Consectetur
+                                quas maxime saepe accusantium molestias,
+                                asperiores, consequuntur at ad ratione delectus
+                                aliquam ab!
+                            </p>
                         </div>
                     </div>
                 </div>
