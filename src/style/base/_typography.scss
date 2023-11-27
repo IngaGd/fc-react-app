@@ -12,6 +12,12 @@
 .heading-secondary {
     font-size: 3.5rem;
     color: $color-black-light;
+    @include respond(tab-land) {
+        font-size: 3.2rem;
+    }
+    @include respond(phone) {
+        text-align: center;
+    }
     &.white {
         color: $color-white;
     }
@@ -26,6 +32,9 @@
 .heading-tertiary {
     font-size: 2.4rem;
     color: $color-black-light;
+    @include respond(phone) {
+        margin-top: 2rem;
+    }
 }
 
 .heading-fith {
@@ -35,4 +44,8 @@
 
 .paragraph {
     font-size: 2rem;
+    @include respond(tab-land) {
+        font-size: 1.8rem;
+        text-align: justify;
+    }
 }

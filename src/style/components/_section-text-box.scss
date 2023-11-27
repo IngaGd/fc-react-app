@@ -2,6 +2,14 @@
     padding-left: 5rem;
     padding-top: 8rem;
     text-align: justify;
+    @include respond(tab-land) {
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+    @include respond(phone) {
+        padding-left: 0;
+        padding-bottom: 2rem;
+    }
     .heading-tertiary {
         margin-bottom: 1rem;
     }
@@ -18,5 +26,8 @@
         animation-name: moveInLeft;
         animation-duration: 2s;
         animation-timing-function: ease-out;
+        @include respond(phone) {
+            animation: none;
+        }
     }
 }

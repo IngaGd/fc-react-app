@@ -1,5 +1,8 @@
 .feature {
     text-align: center;
+    @include respond(phone) {
+        padding-bottom: 8rem;
+    }
     &.animated {
         animation: apperance 1s ease-in;
         animation-fill-mode: backwards;
@@ -12,6 +15,9 @@
         &.feature-3 {
             animation-delay: 1.5s;
         }
+        @include respond(phone) {
+            animation: none;
+        }
     }
     .icon {
         color: $color-primary;
@@ -21,6 +27,7 @@
     .heading-tertiary,
     .paragraph {
         margin-bottom: 1.5rem;
+        text-align: center;
     }
     .link-undelined {
         font-size: 1.6rem;

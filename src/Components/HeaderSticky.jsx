@@ -8,9 +8,9 @@ export default function HeaderSticky() {
         <header className={`header-sticky`}>
             <nav className={`nav-desktop`}>
                 <div className={`nav-links`}>
-                    <Link className="nav-link" to="/about-us">
+                    {/* <Link className="nav-link" to="/about-us">
                         <div className="text-box"> About us</div>
-                    </Link>
+                    </Link> */}
                     <a
                         className="nav-link"
                         href="https://fingers-crossed-nail-studio.mytreatwell.lt/?fbclid=PAAaZ1c67PnrUYjey9ZzL7tUeaZ0k4f3P8zsvxOLFeZBP1QSRvGSs4y-K_rW8"

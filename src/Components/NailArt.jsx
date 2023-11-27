@@ -15,12 +15,12 @@ export default function NailArt() {
             ref={containerRef}
         >
             <div className="row">
-                <div className="col-6-of-12">
+                <div className="col-6-of-12 mob">
                     <div className={`image-box ${isVisible ? 'animated' : ''}`}>
-                        <img src={image} alt="" />
+                        <img src={image} alt="" className="img" />
                     </div>
                 </div>
-                <div className="col-6-of-12">
+                <div className="col-6-of-12 mob">
                     <div
                         className={`section-text-box ${
                             isVisible ? 'animated' : ''

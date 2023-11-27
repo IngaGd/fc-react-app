@@ -12,6 +12,10 @@
     .nav-desktop {
         margin: 0 auto;
         width: $grid-width;
+        @include respond(tab-land) {
+            max-width: 90rem;
+            display: none;
+        }
         margin-right: calc((100% - #{$grid-width}) / 2);
         .nav-links {
             display: flex;
@@ -65,6 +69,10 @@
     .nav-desktop {
         margin: 0 auto;
         width: $grid-width;
+        @include respond(tab-land) {
+            max-width: 90rem;
+            display: none;
+        }
         margin-right: calc((100% - #{$grid-width}) / 2);
         .nav-links {
             display: flex;

@@ -24,25 +24,59 @@
 .section-prosecco-fridays {
     padding-top: 10rem;
     padding-bottom: 15rem;
+    @include respond(tab-land) {
+        padding-top: 6rem;
+        padding-bottom: 8rem;
+    }
     .image-box {
         &.animated {
             animation-name: moveInRight;
             animation-duration: 2s;
             animation-timing-function: ease-out;
+            @include respond(phone) {
+                animation: none;
+            }
         }
         .img {
             height: 60rem;
             width: 60rem;
             border-radius: 2px;
             object-fit: cover;
+
+            @include respond(tab-land) {
+                height: 40rem;
+                width: 40rem;
+            }
+            @include respond(phone) {
+                width: 100%;
+                height: auto;
+            }
         }
+    }
+}
+.section-nail-art.u-section-padding,
+.section-prosecco-fridays.u-section-padding {
+    @include respond(phone) {
+        padding: 0;
+    }
+}
+
+.section-nail-art {
+    @include respond(phone) {
+        margin-top: -10rem;
     }
 }
 
 .section-services {
     padding-bottom: 10rem;
+    @include respond(phone) {
+        padding: 0;
+    }
 }
 
 .section-features {
     padding-bottom: 15rem;
+    @include respond(phone) {
+        padding: 0;
+    }
 }

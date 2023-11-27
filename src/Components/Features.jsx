@@ -11,7 +11,7 @@ export default function Features() {
     return (
         <section className="section-features" ref={containerRef}>
             <div className="row">
-                <div className="col-4-of-12">
+                <div className="col-4-of-12 mob">
                     <div
                         className={`feature ${
                             isVisible ? 'animated' : ''
@@ -28,7 +28,7 @@ export default function Features() {
                         </a>
                     </div>
                 </div>
-                <div className="col-4-of-12">
+                <div className="col-4-of-12 mob">
                     <div
                         className={`feature ${
                             isVisible ? 'animated' : ''
@@ -45,7 +45,7 @@ export default function Features() {
                         </a>
                     </div>
                 </div>
-                <div className="col-4-of-12">
+                <div className="col-4-of-12 mob">
                     <div
                         className={`feature ${
                             isVisible ? 'animated' : ''

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image from '../assets/images/gallery/img3.jpg';
+import image from '../assets/images/gallery/img2.jpg';
 import useElementOnScreen from '../CustomHooks/useElementOnScreen';
 
 export default function ProseccoFridays() {
@@ -15,7 +15,7 @@ export default function ProseccoFridays() {
             ref={containerRef}
         >
             <div className="row">
-                <div className="col-6-of-12">
+                <div className="col-6-of-12 mob">
                     <div
                         className={`section-text-box ${
                             isVisible ? 'animated' : ''
@@ -43,7 +43,7 @@ export default function ProseccoFridays() {
                         </ul>
                     </div>
                 </div>
-                <div className="col-6-of-12">
+                <div className="col-6-of-12 mob">
                     <div className={`image-box ${isVisible ? 'animated' : ''}`}>
                         <img src={image} alt="" className="img" />
                     </div>

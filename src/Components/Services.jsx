@@ -21,8 +21,8 @@ export default function Services() {
         <section className="section-services" ref={containerRef}>
             <div className="row u-center-text">
                 {/* <h3 className="heading-quarterly">CHOOSE THE BEAUTY</h3> */}
-                {/* <h2 className="heading-secondary">Peace, Love & Nails.</h2> */}
-                <div className="emoji-box">
+                <h2 className="heading-secondary">Peace, Love & Nails.</h2>
+                {/* <div className="emoji-box">
                     <img src={emoji1} alt="nail emoji" className="emoji" />
                     <span className="plus-sign">+</span>
                     <img src={emoji2} alt="dog emoji" className="emoji" />
@@ -33,10 +33,10 @@ export default function Services() {
                     <span className="equality-sign">=</span>
                     <img src={emoji5} alt="nail emoji" className="emoji" />
                     <img src={emoji6} alt="nail emoji" className="emoji" />
-                </div>
+                </div> */}
             </div>
             <div className="row">
-                <div className="col-4-of-12">
+                <div className="col-4-of-12 mob">
                     <div className="service">
                         <div
                             className={`service__card ${
@@ -69,7 +69,7 @@ export default function Services() {
                         </div>
                     </div>
                 </div>
-                <div className="col-4-of-12">
+                <div className="col-4-of-12 mob">
                     <div className="service">
                         <div
                             className={`service__card ${
@@ -103,7 +103,7 @@ export default function Services() {
                         </div>
                     </div>
                 </div>
-                <div className="col-4-of-12">
+                <div className="col-4-of-12 mob">
                     <div className="service">
                         <div
                             className={`service__card ${
