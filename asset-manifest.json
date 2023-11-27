@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/fc-react-app/static/css/main.8748d56f.css",
-    "main.js": "/fc-react-app/static/js/main.3bdb5da9.js",
+    "main.css": "/fc-react-app/static/css/main.805b111f.css",
+    "main.js": "/fc-react-app/static/js/main.fbe315f2.js",
     "static/media/manikiuras v3.mp4": "/fc-react-app/static/media/manikiuras v3.9ff54e5e49a7bef6c752.mp4",
-    "static/media/img3.jpg": "/fc-react-app/static/media/img3.211b7309cfae371f24c3.jpg",
     "static/media/nail-polish-transperent.png": "/fc-react-app/static/media/nail-polish-transperent.065675915550f989eca1.png",
-    "static/media/img2.jpg": "/fc-react-app/static/media/img2.b7072eb0c2eaddf84573.jpg",
+    "static/media/img2.jpg": "/fc-react-app/static/media/img2.f61b0dd321ba356074d5.jpg",
+    "static/media/img3.jpg": "/fc-react-app/static/media/img3.211b7309cfae371f24c3.jpg",
     "static/media/img2.png": "/fc-react-app/static/media/img2.8af09df10c54145894ba.png",
     "static/media/img1.jpg": "/fc-react-app/static/media/img1.29ef34ff42fae0066909.jpg",
     "static/media/Fingers_crossed_logopos_small.png": "/fc-react-app/static/media/Fingers_crossed_logopos_small.8f92ed19c8de04569af8.png",
     "index.html": "/fc-react-app/index.html",
-    "main.8748d56f.css.map": "/fc-react-app/static/css/main.8748d56f.css.map",
-    "main.3bdb5da9.js.map": "/fc-react-app/static/js/main.3bdb5da9.js.map"
+    "main.805b111f.css.map": "/fc-react-app/static/css/main.805b111f.css.map",
+    "main.fbe315f2.js.map": "/fc-react-app/static/js/main.fbe315f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8748d56f.css",
-    "static/js/main.3bdb5da9.js"
+    "static/css/main.805b111f.css",
+    "static/js/main.fbe315f2.js"
   ]
 }
