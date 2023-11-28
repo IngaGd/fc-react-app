@@ -10,8 +10,8 @@
             color: $color-grey-dark;
         }
         .logo {
-            width: 13rem;
-            height: 13rem;
+            width: 10rem;
+            height: 10rem;
         }
         .btn-icons {
             background-color: transparent;
@@ -22,21 +22,10 @@
     }
 }
 
-.header-sticky {
-    .nav-mobile {
-        .btn-icons .times {
-            color: $color-black-light;
-        }
-    }
+.header-hero .nav-mobile .btn-icons {
+    color: $color-primary;
 }
 
-.header-hero {
-    .nav-mobile {
-        .btn-icons {
-            color: $color-primary;
-        }
-        .btn-icons.times {
-            color: $color-black-light;
-        }
-    }
+.header-hero .nav-mobile .btn-icons.times {
+    color: $color-black-light;
 }
