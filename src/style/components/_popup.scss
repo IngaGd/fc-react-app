@@ -1,0 +1,50 @@
+.popup {
+    height: 40rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $color-white;
+    box-shadow: 0 0.5rem 1rem rgba($color-black, $alpha: 0.1);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    padding-top: 2rem;
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__content {
+        width: 100%;
+        background-color: $color-white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 10rem;
+        justify-content: space-between;
+    }
+    &__nav-links {
+        // @include absolute-center;
+        width: 25%;
+        background-color: $color-white;
+        .links {
+            @include absolute-center;
+            display: flex;
+            flex-direction: column;
+            padding-top: 4rem;
+            .nav-link {
+                font-size: 2rem;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: inherit;
+                letter-spacing: 0.05cm;
+                &:not(:last-child) {
+                    padding-bottom: 2rem;
+                }
+            }
+        }
+    }
+}

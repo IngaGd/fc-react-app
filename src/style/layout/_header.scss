@@ -9,6 +9,9 @@
     z-index: 999;
     height: 15vh;
     box-shadow: 0rem 0.3rem 0.1rem rgba($color-black, 0.05);
+    @include respond(phone) {
+        height: 12vh;
+    }
     .nav-desktop {
         margin: 0 auto;
         width: $grid-width;
@@ -69,11 +72,14 @@
     .nav-desktop {
         margin: 0 auto;
         width: $grid-width;
+        margin-right: calc((100% - #{$grid-width}) / 2);
         @include respond(tab-land) {
-            max-width: 90rem;
+            width: 90rem;
+            margin-right: calc((100% - 90rem) / 2);
+        }
+        @include respond(phone) {
             display: none;
         }
-        margin-right: calc((100% - #{$grid-width}) / 2);
         .nav-links {
             display: flex;
             justify-content: space-between;

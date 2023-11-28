@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import logo from '../assets/images/logo/Fingers_crossed_logopos_small.png';
+import NavMobile from './NavMobile';
 
 export default function HeaderSticky() {
     return (
@@ -45,7 +45,7 @@ export default function HeaderSticky() {
                     </a>
                 </div>
             </nav>
-            <nav className="header__nav-mobile"></nav>
+            <NavMobile />
         </header>
     );
 }

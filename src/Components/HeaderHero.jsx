@@ -1,16 +1,15 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-
 import logo from '../assets/images/logo/Fingers_crossed_logopos_small.png';
+import NavMobile from './NavMobile';
 
 export default function HeaderHero() {
     return (
         <header className={`header-hero`}>
             <nav className={`nav-desktop`}>
                 <div className={`nav-links`}>
-                    <Link className="nav-link" to="/about-us">
+                    {/* <Link className="nav-link" to="/about-us">
                         <div className="text-box"> About us</div>
-                    </Link>
+                    </Link> */}
                     <a
                         className="nav-link"
                         href="https://fingers-crossed-nail-studio.mytreatwell.lt/?fbclid=PAAaZ1c67PnrUYjey9ZzL7tUeaZ0k4f3P8zsvxOLFeZBP1QSRvGSs4y-K_rW8"
@@ -30,9 +29,9 @@ export default function HeaderHero() {
                     <Link className="nav-link" to="/shop">
                         <div className="text-box">Products</div>
                     </Link>
-                    <Link className="nav-link" to="/cart">
+                    {/* <Link className="nav-link" to="/cart">
                         <div className="text-box">Cart</div>
-                    </Link>
+                    </Link> */}
                     <a
                         className="nav-link"
                         href="https://fingers-crossed-nail-studio.mytreatwell.lt/?fbclid=PAAaZ1c67PnrUYjey9ZzL7tUeaZ0k4f3P8zsvxOLFeZBP1QSRvGSs4y-K_rW8"
@@ -45,7 +44,7 @@ export default function HeaderHero() {
                     </a>
                 </div>
             </nav>
-            <nav className="header__nav-mobile"></nav>
+            <NavMobile />
         </header>
     );
 }
