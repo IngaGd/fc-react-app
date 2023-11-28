@@ -48,7 +48,7 @@ export default function NavMobile() {
                         >
                             <div className="text-box">Prices</div>
                         </a>
-                        <Link className="nav-link" to="/contact">
+                        <Link className="nav-link" to="/contacts">
                             <div className="text-box"> Contacts</div>
                         </Link>
                         <Link className="nav-link" to="/shop">

@@ -13,12 +13,12 @@ export default function Contacts() {
             <div className="countdown__container">
                 <div className="countdown__box">
                     <div className="countdown__heading">
-                        Comming soon : &#41;
+                        Info comming soon : &#41;
                     </div>
                     <div className="countdown__numbers">
-                        <div className="countdown__number">{days} d :</div>
-                        <div className="countdown__number">{hours} h :</div>
-                        <div className="countdown__number">{minutes} min :</div>
+                        <div className="countdown__number">{days} d </div>
+                        <div className="countdown__number">{hours} h </div>
+                        <div className="countdown__number">{minutes} min </div>
                         <div className="countdown__number">{seconds} s</div>
                     </div>
                 </div>
