@@ -22,10 +22,24 @@
     }
 }
 
-.header-hero .nav-mobile .btn-icons {
-    color: $color-primary;
+.header-sticky {
+    .nav-mobile {
+        .btn-icons .times {
+            color: $color-black-light;
+            -webkit-text-fill-color: $color-black-light;
+        }
+    }
 }
 
-.header-hero .nav-mobile .btn-icons.times {
-    color: $color-black-light;
+.header-hero {
+    .nav-mobile {
+        .btn-icons {
+            color: $color-primary;
+            -webkit-text-fill-color: $color-primary;
+        }
+        .btn-icons.times {
+            color: $color-black-light;
+            -webkit-text-fill-color: $color-black-light;
+        }
+    }
 }
