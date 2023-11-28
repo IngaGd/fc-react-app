@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fc-react-app/static/css/main.5f8520da.css",
+    "main.css": "/fc-react-app/static/css/main.108d51fd.css",
     "main.js": "/fc-react-app/static/js/main.8b6053fd.js",
     "static/media/manikiuras v3.mp4": "/fc-react-app/static/media/manikiuras v3.9ff54e5e49a7bef6c752.mp4",
     "static/media/nail-polish-transperent.png": "/fc-react-app/static/media/nail-polish-transperent.065675915550f989eca1.png",
@@ -10,11 +10,11 @@
     "static/media/img1.jpg": "/fc-react-app/static/media/img1.29ef34ff42fae0066909.jpg",
     "static/media/Fingers_crossed_logopos_small.png": "/fc-react-app/static/media/Fingers_crossed_logopos_small.8f92ed19c8de04569af8.png",
     "index.html": "/fc-react-app/index.html",
-    "main.5f8520da.css.map": "/fc-react-app/static/css/main.5f8520da.css.map",
+    "main.108d51fd.css.map": "/fc-react-app/static/css/main.108d51fd.css.map",
     "main.8b6053fd.js.map": "/fc-react-app/static/js/main.8b6053fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f8520da.css",
+    "static/css/main.108d51fd.css",
     "static/js/main.8b6053fd.js"
   ]
 }
