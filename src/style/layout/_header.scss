@@ -15,11 +15,14 @@
     .nav-desktop {
         margin: 0 auto;
         width: $grid-width;
+        margin-right: calc((100% - #{$grid-width}) / 2);
         @include respond(tab-land) {
-            max-width: 90rem;
+            width: 90rem;
+            margin-right: calc((100% - 90rem) / 2);
+        }
+        @include respond(phone) {
             display: none;
         }
-        margin-right: calc((100% - #{$grid-width}) / 2);
         .nav-links {
             display: flex;
             justify-content: space-between;

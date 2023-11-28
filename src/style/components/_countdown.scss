@@ -1,0 +1,29 @@
+.countdown {
+    &__container {
+        height: 85vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__heading {
+        margin-top: -20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50rem;
+        color: $color-primary;
+        font-size: 4rem;
+        text-transform: uppercase;
+        margin-bottom: 5rem;
+    }
+    &__box {
+    }
+    &__numbers {
+        display: flex;
+        justify-content: space-between;
+        width: 50rem;
+        color: $color-secondary;
+        font-size: 4rem;
+    }
+}

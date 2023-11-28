@@ -30,9 +30,9 @@ export default function HeaderSticky() {
                     <Link className="nav-link" to="/shop">
                         <div className="text-box">Products</div>
                     </Link>
-                    <Link className="nav-link" to="/cart">
+                    {/* <Link className="nav-link" to="/cart">
                         <div className="text-box">Cart</div>
-                    </Link>
+                    </Link> */}
                     <a
                         className="nav-link"
                         href="https://fingers-crossed-nail-studio.mytreatwell.lt/?fbclid=PAAaZ1c67PnrUYjey9ZzL7tUeaZ0k4f3P8zsvxOLFeZBP1QSRvGSs4y-K_rW8"
