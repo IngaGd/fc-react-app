@@ -16,6 +16,11 @@
         font-size: 4rem;
         text-transform: uppercase;
         margin-bottom: 5rem;
+        @include respond(phone) {
+            width: 30rem;
+            font-size: 3rem;
+            margin-bottom: 3rem;
+        }
     }
     &__box {
     }
@@ -25,5 +30,9 @@
         width: 50rem;
         color: $color-secondary;
         font-size: 4rem;
+        @include respond(phone) {
+            width: 30rem;
+            font-size: 3rem;
+        }
     }
 }
