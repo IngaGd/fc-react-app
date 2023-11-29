@@ -21,8 +21,18 @@ export default function Hero({ refProp }) {
         <section className="section-hero u-section-padding" ref={refProp}>
             {isSticky ? '' : <HeaderHero />}
             <div className="bg-video">
-                <video className="bg-video__content" autoPlay muted loop>
-                    <source src={video} />
+                <video
+                    className="bg-video__content"
+                    preload
+                    autoPlay
+                    muted
+                    controls
+                    playsInLine
+                    loop
+                    poster=""
+                >
+                    <source src={video} type="video/mp4" />
+                    Sorry, your browser does not support HTML5 video.
                 </video>
             </div>
 
