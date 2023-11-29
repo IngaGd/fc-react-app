@@ -26,10 +26,7 @@ export default function Hero({ refProp }) {
                     preload
                     autoPlay
                     muted
-                    controls
-                    playsInLine
                     loop
-                    poster=""
                 >
                     <source src={video} type="video/mp4" />
                     Sorry, your browser does not support HTML5 video.
